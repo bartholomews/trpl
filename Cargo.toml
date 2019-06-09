@@ -1,9 +1,6 @@
-[package]
-name = "trpl"
-version = "0.1.0"
-authors = ["bartholomews <trpl@bartholomews.io>"]
-edition = "2018"
+[workspace]
 
-[[bin]]
-name = "hello_world"
-path = "01_hello_world/src/main.rs"
+members = [
+    "01_hello_world",
+    "02_guessing_game",
+]
