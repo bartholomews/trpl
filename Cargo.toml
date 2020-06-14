@@ -1,6 +1,9 @@
+# https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html
+# A workspace is a set of packages that share the same Cargo.lock and output directory.
 [workspace]
 
 members = [
     "trpl_01_hello_world",
-    "trpl_02_guessing_game"
+    "trpl_02_guessing_game",
+    "trpl_03_basics",
 ]
